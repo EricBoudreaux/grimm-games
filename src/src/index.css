@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --black: #141414;
+    --red: #770700;
+      }
+    
+    @layer base {
+        h1 {
+           @apply font-['Major_Mono_Display']  text-[var(--red)]
+        }
+        h2 {
+            @apply font-['Poppins'] text-[32px] 
+         }
+        h3 {
+             @apply font-['Poppins'] text-[24px] text-[#222222]
+         }
+        h4 {
+             @apply font-['Poppins'] text-[24px] text-[#222222]
+         }
+        h6 {
+             @apply font-['Poppins'] text-[14px] text-[#222222]
+         }
+         p {
+            @apply font-['Roboto'] text-[14px] text-[#777777]
+         }
+         a {
+            @apply font-['Roboto'] 
+         }
+    
+    }
+
+body {
+   background: #141414
+}
+
+textarea {
+   resize: none;
+ } 
